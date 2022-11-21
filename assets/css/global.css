@@ -19516,3 +19516,24 @@ a.action_button:hover{text-decoration:none}
 #Content.no-padding, .template-slider #Content, .with_aside #Content {
     padding-top: 0px !important;
 }
+
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000 !important;
+    background-color: transparent !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 12px !important;
+	margin-right: 20px !important;
+    font-size:19px !important;
+    font-weight: 400 !important;
+    color: #4c4b4d !important;
+    text-decoration: none;
+    transition: none !important;
+}

@@ -1205,7 +1205,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 /* Top bar width */
 
 #Top_bar .top_bar_left {
-	width: 990px;
+	width: 1265px;
 }
 
 /* Logo */
@@ -6127,7 +6127,7 @@ html, body {
 	}
 	#Top_bar .menu_wrapper {
 		float: left!important;
-		width: 100%;
+		/* width: 100%; */
 		margin: 0!important
 	}
 	#Top_bar #menu {
@@ -7621,4 +7621,9 @@ html, body {
 	html.ios, .ios .section.bg-cover {
 		background-attachment: scroll!important
 	}
+}
+
+
+ol, ul {
+    padding-left: 0rem !important;
 }
